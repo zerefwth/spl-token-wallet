@@ -28,7 +28,7 @@ import GavelIcon from '@material-ui/icons/Gavel';
 import { signAndSendTransaction } from '../utils/tokens';
 import { useSnackbar } from 'notistack';
 import { SOL_TLD_AUTHORITY } from '../utils/name-service';
-import { transferNameOwnership } from '@bonfida/spl-name-service';
+import { transferNameOwnership } from '@solana/spl-name-service';
 import { useConnection } from '../utils/connection';
 import { useWallet } from '../utils/wallet';
 import { refreshCache } from '../utils/fetch-loop';

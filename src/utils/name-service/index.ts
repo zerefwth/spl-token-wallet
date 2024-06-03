@@ -5,9 +5,8 @@ import {
   getNameAccountKey,
   NameRegistryState,
   getFilteredProgramAccounts,
-  NAME_PROGRAM_ID,
-  getDNSRecordAddress,
-} from '@bonfida/spl-name-service';
+  NAME_PROGRAM_ID
+} from '@solana/spl-name-service';
 import { useConnection } from '../connection';
 import { useWallet } from '../wallet';
 import BN from 'bn.js';
@@ -47,9 +46,7 @@ export const resolveDomainName = async (
   domainName: string,
   parent?: PublicKey,
 ): Promise<string | undefined> => {
-  const key = parent
-    ? await getDNSRecordAddress(parent, domainName)
-    : await getNameKey(domainName);
+  const key = await getNameKey(domainName);
   try {
     const registry = await NameRegistryState.retrieve(connection, key);
     return registry.owner.toBase58();

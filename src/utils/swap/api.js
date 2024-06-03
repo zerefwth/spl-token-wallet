@@ -23,7 +23,8 @@ export async function swapApiRequest(
     params.body = JSON.stringify(body);
   }
 
-  let resp = await fetch(`https://swap.sollet.io/api/${path}`, params);
+  // @TODO: add pure openbook AMM route here
+  let resp = await fetch(`https://api.raydium.io/v2/${path}`, params);
   return await handleSwapApiResponse(resp, ignoreUserErrors);
 }
 
