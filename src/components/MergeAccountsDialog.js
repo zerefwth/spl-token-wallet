@@ -16,7 +16,7 @@ import {
   useConnection,
   refreshAccountInfo,
   getMultipleSolanaAccounts,
-} from '../utils/connection';
+} from '../utils/connect';
 import { parseTokenAccountData } from '../utils/tokens/data';
 import { refreshWalletPublicKeys, useWallet } from '../utils/wallet';
 import {

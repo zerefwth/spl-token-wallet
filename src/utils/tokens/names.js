@@ -4,7 +4,7 @@ import {
   useConnectionConfig,
   MAINNET_URL,
   MAINNET_BACKUP_URL,
-} from '../connection';
+} from '../connect';
 import { useListener } from '../utils';
 import { clusterForEndpoint } from '../clusters';
 import { useCallback } from 'react';

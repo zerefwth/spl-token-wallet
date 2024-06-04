@@ -14,7 +14,7 @@ import { TokenListContainer } from '@solana/spl-token-registry';
 import { useTokenInfos } from '../utils/tokens/names';
 import { useSendTransaction } from '../utils/notifications';
 import { useWallet } from '../utils/wallet';
-import { useConnection } from '../utils/connection';
+import { useConnection } from '../utils/connect';
 import { useIsExtensionWidth } from '../utils/utils';
 import DialogForm from './DialogForm';
 

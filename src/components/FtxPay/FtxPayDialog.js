@@ -11,7 +11,7 @@ import TokenIcon from '../TokenIcon';
 import Link from '@material-ui/core/Link';
 import { abbreviateAddress, useIsExtensionWidth } from '../../utils/utils';
 import FormControl from '@material-ui/core/FormControl';
-import { useSolanaExplorerUrlSuffix } from '../../utils/connection';
+import { useSolanaExplorerUrlSuffix } from '../../utils/connect';
 import { MenuItem, Select } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 

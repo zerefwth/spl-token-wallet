@@ -6,7 +6,7 @@ import {
   setInitialAccountInfo,
   useAccountInfo,
   useConnection,
-} from './connection';
+} from './connect';
 import {
   closeTokenAccount,
   createAndInitializeTokenAccount,

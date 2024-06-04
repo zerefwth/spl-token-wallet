@@ -1,6 +1,6 @@
 import { DialogContentText } from "@material-ui/core";
 import { useEffect, useState } from "react";
-import { useConnection } from "../utils/connection";
+import { useConnection } from "../utils/connect";
 import { priceStore, serumMarkets } from "../utils/markets";
 
 function FeeContentText({ ethFee, ethPrice, warning = false, prefix = "", bold = false }) {

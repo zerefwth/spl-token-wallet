@@ -4,7 +4,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogForm from './DialogForm';
 import { abbreviateAddress } from '../utils/utils';
 import CopyableDisplay from './CopyableDisplay';
-import { useSolanaExplorerUrlSuffix } from '../utils/connection';
+import { useSolanaExplorerUrlSuffix } from '../utils/connect';
 import Typography from '@material-ui/core/Typography';
 import DialogActions from '@material-ui/core/DialogActions';
 import Button from '@material-ui/core/Button';

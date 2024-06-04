@@ -3,7 +3,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import { useConnectionConfig } from '../utils/connection';
+import { useConnectionConfig } from '../utils/connect';
 import {
   clusterForEndpoint,
   getClusters,

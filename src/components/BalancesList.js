@@ -44,7 +44,7 @@ import {
   useIsProdNetwork,
   refreshAccountInfo,
   useSolanaExplorerUrlSuffix,
-} from '../utils/connection';
+} from '../utils/connect';
 import { useRegion } from '../utils/region';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { serumMarkets, priceStore } from '../utils/markets';
@@ -52,7 +52,7 @@ import { swapApiRequest } from '../utils/swap/api';
 import { showSwapAddress } from '../utils/config';
 import { useAsyncData } from '../utils/fetch-loop';
 import { showTokenInfoDialog } from '../utils/config';
-import { useConnection } from '../utils/connection';
+import { useConnection } from '../utils/connect';
 import { shortenAddress } from '../utils/utils';
 import CloseTokenAccountDialog from './CloseTokenAccountButton';
 import ListItemIcon from '@material-ui/core/ListItemIcon';

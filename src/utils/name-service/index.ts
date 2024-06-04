@@ -7,7 +7,7 @@ import {
   getFilteredProgramAccounts,
   NAME_PROGRAM_ID
 } from '@solana/spl-name-service';
-import { useConnection } from '../connection';
+import { useConnection } from '../connect';
 import { useWallet } from '../wallet';
 import BN from 'bn.js';
 import { useAsyncData } from '../fetch-loop';

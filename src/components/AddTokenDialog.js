@@ -24,7 +24,7 @@ import { abbreviateAddress } from '../utils/utils';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 import Collapse from '@material-ui/core/Collapse';
-import { useSolanaExplorerUrlSuffix } from '../utils/connection';
+import { useSolanaExplorerUrlSuffix } from '../utils/connect';
 import Link from '@material-ui/core/Link';
 import CopyableDisplay from './CopyableDisplay';
 import DialogForm from './DialogForm';

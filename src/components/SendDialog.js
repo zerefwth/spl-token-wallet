@@ -21,7 +21,7 @@ import {
   useEthAccount,
   withdrawEth,
 } from '../utils/swap/eth';
-import { useConnection, useIsProdNetwork } from '../utils/connection';
+import { useConnection, useIsProdNetwork } from '../utils/connect';
 import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
 import StepLabel from '@material-ui/core/StepLabel';

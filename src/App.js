@@ -14,7 +14,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import DialogForm from './components/DialogForm';
 import NavigationFrame from './components/NavigationFrame';
-import { ConnectionProvider } from './utils/connection';
+import { ConnectionProvider } from './utils/connect';
 import WalletPage from './pages/WalletPage';
 import { useWallet, WalletProvider } from './utils/wallet';
 import { ConnectedWalletsProvider } from './utils/connected-wallets';

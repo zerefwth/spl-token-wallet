@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSnackbar } from 'notistack';
-import { useConnection, useSolanaExplorerUrlSuffix } from './connection';
+import { useConnection, useSolanaExplorerUrlSuffix } from './connect';
 import Button from '@material-ui/core/Button';
 import { confirmTransaction } from './utils';
 

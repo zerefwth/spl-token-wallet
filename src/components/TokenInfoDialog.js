@@ -1,7 +1,7 @@
 import { Typography } from '@material-ui/core';
 import Link from '@material-ui/core/Link';
 import React from 'react';
-import { useSolanaExplorerUrlSuffix } from '../utils/connection';
+import { useSolanaExplorerUrlSuffix } from '../utils/connect';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogForm from './DialogForm';

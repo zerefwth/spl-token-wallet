@@ -11,7 +11,7 @@ import {
   refreshAccountInfo,
   useConnectionConfig,
   MAINNET_URL,
-} from '../utils/connection';
+} from '../utils/connect';
 import { createAndInitializeMint } from '../utils/tokens';
 import { Tooltip, Button } from '@material-ui/core';
 import React from 'react';
